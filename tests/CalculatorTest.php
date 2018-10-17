@@ -31,13 +31,13 @@ class CalculatorTest extends TestCase
     public function testAdd()
     {
         $value = $this->calc->add(2, 3);
-        $this->assertEquals($value, 3);
+        $this->assertEquals($value, 5);
     }
 
     public function testMultiply()
     {
         $value = $this->calc->multiply(2, 3);
-        $this->assertEquals($value, 8);
+        $this->assertEquals($value, 6);
     }
 
     public function testSubtract()
